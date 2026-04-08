@@ -1,3 +1,12 @@
 ﻿using DesignPatternsLab1.Creational;
+using DesignPatternsLab1.Structural;
+using System.Net.Security;
 
-CreationalRunner.Run();
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //CreationalRunner.Run();
+        StructuralRunner.Run();
+    }
+}
